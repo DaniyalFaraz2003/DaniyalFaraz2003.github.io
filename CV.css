@@ -1,0 +1,178 @@
+body{
+    background-color: rgba(175, 172, 172, 0.281);
+}
+ol{
+    list-style: disc;
+}
+.window {
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    align-items: flex-start;
+}
+.window .head{
+    justify-content: space-around;
+    background-color: black;
+    color: aliceblue;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    border: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.window .head h1{
+    align-self: center;
+}
+.window .main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.window .main .side {
+    display: flex;
+    flex-direction: column;
+}
+.window .main .side {
+    display: flex;
+    flex-direction: column;
+}
+.window .main .information {
+    border: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    fill: aquamarine;
+    background-color: darkgrey;
+    box-shadow: 10px 10px 10px 10px;
+    border-color: blue;
+    width: 1000px;
+    height: 550px;
+    box-shadow: 0px 0px 5px #0000003b;
+    border-radius: 12px;
+}
+.window .main .information .credentials {
+    border: 10px;
+    fill: aquamarine;
+    box-shadow: 10px 10px 10px 10px;
+    border-color: blue;
+    width: 95%;
+    height: 33%;
+    background-color: azure;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px #0000003b;
+    border-radius: 12px;
+}
+.window .main .information .credentials h2{
+    text-align: center;
+}
+.window .main .information .credentials p{
+    margin-left: 50px;
+}
+.window .main .information .studies {
+    border: 10px;
+    fill: aquamarine;
+    background-color: azure;
+    box-shadow: 10px 10px 10px 10px;
+    border-color: blue;
+    width: 95%;
+    height: 33%;
+    margin-top: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px #0000003b;
+    border-radius: 12px;
+}
+.window .main .information .studies h2{
+    text-align: center;
+}
+
+.window .main .information .achievements {
+    border: 10px;
+    fill: aquamarine;
+    background-color: azure;
+    box-shadow: 10px 10px 10px 10px;
+    border-color: blue;
+    width: 95%;
+    height: 33%;
+    margin-top: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px #0000003b;
+    border-radius: 12px;
+}
+.window .main .information .achievements h2{
+    text-align: center;
+}
+.window .main .side .picture {
+    border: 10px;
+    fill: aquamarine;
+    border-color: blue;
+    box-shadow: 10px 10px 10px 10px;
+    width: 400px;
+    height: 320px;
+    box-shadow: 10px 10px 10px #0000003b;
+    margin-left: 30px;
+    border-radius: 12px;
+}
+.window .main .side .socials {
+    border: 10px;
+    background-color: darkgrey;
+    box-shadow: 5px 5px 5px 10px;
+    width: 400px;
+    height: 200px;
+    margin-top: 30px;
+    box-shadow: 10px 10px 10px #0000003b;
+    margin-left: 30px;
+    border-radius: 12px;
+}
+.window .main .side .picture img{
+    width: 400px;
+    height: 320px;
+}
+.window .main .side .socials .links {
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: azure;
+    border: 10px;
+    border-radius: 10px;
+}
+.window .main .side .socials .links .heading{
+    margin-top: 0%;
+}
+.window .main .side .socials .links .logos {
+    display: flex;
+    margin-top: 15px;
+    margin-right: 60px;
+}
+.window .main .side .socials .links .logos .gitlogo {
+    display: flex;
+    height: 40px;
+    margin-right: 120px;
+    width: 40px;
+    align-items: center;
+}
+.window .main .side .socials .links .logos .gitlogo img{
+    height: 100%;
+    width: 100%;
+}
+.window .main .side .socials .links .logos .instalogo {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+}
+.window .main .side .socials .links .logos .instalogo img{
+    height: 100%;
+    width: 100%;
+    margin-right: 5px;
+}
