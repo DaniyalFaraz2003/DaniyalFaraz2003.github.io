@@ -1,5 +1,5 @@
 let typed = new Typed(".multi-headline",{
-    strings:["Frontend Developer",  "MERN Developer","Graphic Designer","Freelancer","Bloger"],
+    strings:["C++ Expert", "MERN Developer","Automation Engineer","Freelancer"],
     typeSpeed:80,
     backSpeed:80,
     backdelay:1000,
