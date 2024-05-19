@@ -18,8 +18,6 @@ const dTheme = () => {
         headNavA[i].style = "color: white;";
     }
 
-   
-
 
 
 document.querySelector(".section3 .main-box1 .image-side .img-frame ").style = "box-shadow: 0px 0px 10px #0ed";
